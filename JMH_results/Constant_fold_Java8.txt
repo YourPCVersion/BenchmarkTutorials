@@ -1,0 +1,5 @@
+Benchmark                        Mode  Cnt   Score   Error  Units
+_14_ConstantFold.baseline        avgt    5   2.234 ± 0.118  ns/op
+_14_ConstantFold.measureRight    avgt    5  20.892 ± 1.796  ns/op
+_14_ConstantFold.measureWrong_1  avgt    5   2.264 ± 0.091  ns/op
+_14_ConstantFold.measureWrong_2  avgt    5   2.274 ± 0.388  ns/op

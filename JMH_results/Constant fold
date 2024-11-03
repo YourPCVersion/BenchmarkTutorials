@@ -1,0 +1,13 @@
+Java 8
+Benchmark                        Mode  Cnt  Score   Error  Units
+_14_ConstantFold.baseline        avgt    5  3.074 ± 1.053  ns/op
+_14_ConstantFold.measureRight    avgt    5  7.702 ± 3.337  ns/op
+_14_ConstantFold.measureWrong_1  avgt    5  2.822 ± 0.588  ns/op
+_14_ConstantFold.measureWrong_2  avgt    5  6.945 ± 1.520  ns/op
+
+Java 11
+Benchmark                        Mode  Cnt  Score   Error  Units
+_14_ConstantFold.baseline        avgt    5  3.268 ± 1.182  ns/op
+_14_ConstantFold.measureRight    avgt    5  6.376 ± 1.343  ns/op
+_14_ConstantFold.measureWrong_1  avgt    5  3.045 ± 1.321  ns/op
+_14_ConstantFold.measureWrong_2  avgt    5  3.158 ± 0.985  ns/op

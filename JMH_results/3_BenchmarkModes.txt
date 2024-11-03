@@ -1,0 +1,37 @@
+Benchmark                                                    Mode  Cnt    Score   Error   Units
+_3_BenchmarkModes.measureAll                                thrpt         0.010          ops/ms
+_3_BenchmarkModes.measureMultiple                           thrpt         0.088          ops/ms
+_3_BenchmarkModes.measureThroughput                         thrpt         0.089          ops/ms
+_3_BenchmarkModes.measureAll                                 avgt       103.179           ms/op
+_3_BenchmarkModes.measureAvgTime                             avgt        11.200           ms/op
+_3_BenchmarkModes.measureMultiple                            avgt        11.513           ms/op
+_3_BenchmarkModes.measureAll                               sample   97  103.986 ± 0.381   ms/op
+_3_BenchmarkModes.measureAll:measureAll·p0.00              sample       100.139           ms/op
+_3_BenchmarkModes.measureAll:measureAll·p0.50              sample       104.333           ms/op
+_3_BenchmarkModes.measureAll:measureAll·p0.90              sample       105.015           ms/op
+_3_BenchmarkModes.measureAll:measureAll·p0.95              sample       105.120           ms/op
+_3_BenchmarkModes.measureAll:measureAll·p0.99              sample       105.120           ms/op
+_3_BenchmarkModes.measureAll:measureAll·p0.999             sample       105.120           ms/op
+_3_BenchmarkModes.measureAll:measureAll·p0.9999            sample       105.120           ms/op
+_3_BenchmarkModes.measureAll:measureAll·p1.00              sample       105.120           ms/op
+_3_BenchmarkModes.measureMultiple                          sample  860   11.619 ± 0.083   ms/op
+_3_BenchmarkModes.measureMultiple:measureMultiple·p0.00    sample        10.027           ms/op
+_3_BenchmarkModes.measureMultiple:measureMultiple·p0.50    sample        11.600           ms/op
+_3_BenchmarkModes.measureMultiple:measureMultiple·p0.90    sample        12.632           ms/op
+_3_BenchmarkModes.measureMultiple:measureMultiple·p0.95    sample        12.632           ms/op
+_3_BenchmarkModes.measureMultiple:measureMultiple·p0.99    sample        12.665           ms/op
+_3_BenchmarkModes.measureMultiple:measureMultiple·p0.999   sample        12.698           ms/op
+_3_BenchmarkModes.measureMultiple:measureMultiple·p0.9999  sample        12.698           ms/op
+_3_BenchmarkModes.measureMultiple:measureMultiple·p1.00    sample        12.698           ms/op
+_3_BenchmarkModes.measureSamples                           sample  872   11.458 ± 0.083   ms/op
+_3_BenchmarkModes.measureSamples:measureSamples·p0.00      sample        10.011           ms/op
+_3_BenchmarkModes.measureSamples:measureSamples·p0.50      sample        11.567           ms/op
+_3_BenchmarkModes.measureSamples:measureSamples·p0.90      sample        12.599           ms/op
+_3_BenchmarkModes.measureSamples:measureSamples·p0.95      sample        12.632           ms/op
+_3_BenchmarkModes.measureSamples:measureSamples·p0.99      sample        12.665           ms/op
+_3_BenchmarkModes.measureSamples:measureSamples·p0.999     sample        14.172           ms/op
+_3_BenchmarkModes.measureSamples:measureSamples·p0.9999    sample        14.172           ms/op
+_3_BenchmarkModes.measureSamples:measureSamples·p1.00      sample        14.172           ms/op
+_3_BenchmarkModes.measureAll                                   ss       101.913           ms/op
+_3_BenchmarkModes.measureMultiple                              ss        10.812           ms/op
+_3_BenchmarkModes.measureSingleShot                            ss        10.235           ms/op

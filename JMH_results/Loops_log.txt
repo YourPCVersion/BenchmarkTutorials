@@ -1,0 +1,9 @@
+Benchmark                      Mode  Cnt  Score   Error  Units
+_12_Loops.measureLoop_1        avgt       3.742          ns/op
+_12_Loops.measureLoop_10       avgt       0.420          ns/op
+_12_Loops.measureLoop_100      avgt       0.088          ns/op
+_12_Loops.measureLoop_1000     avgt       0.045          ns/op
+_12_Loops.measureLoop_10000    avgt       0.026          ns/op
+_12_Loops.measureLoop_100000   avgt       0.027          ns/op
+_12_Loops.measureLoop_1000000  avgt       0.026          ns/op
+_12_Loops.measureSingle        avgt       3.477          ns/op
